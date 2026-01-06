@@ -34,6 +34,24 @@ public class FoodController {
                 .toList();
     }
 
+    @CrossOrigin(origins = "*", allowedHeaders = "*")
+    @DeleteMapping("/{id}")
+    public void deleteFood(@PathVariable Long id) {
+        foodRepository.deleteById(id);
+        return;
+    }
+
+    @CrossOrigin(origins = "*", allowedHeaders = "*")
+    @PutMapping("/{id}")
+    public void updateFood(@PathVariable Long id, @RequestBody FoodRequestDTO foodRequestDTO) {
+        FoodModel foodModel = foodRepository.getReferenceById(id);
+        foodModel.setTitle(foodRequestDTO.title());
+        foodModel.setImage(foodRequestDTO.image());
+        foodModel.setPrice(foodRequestDTO.price());
+        foodRepository.save(foodModel);
+        return;
+    }
+
 }
 
 
