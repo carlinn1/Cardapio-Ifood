@@ -202,8 +202,8 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 **Seu Nome**
 
-- LinkedIn: [seu-linkedin](https://www.linkedin.com/in/carlos-henrique-souza-bispo-29931231b/)
-- GitHub: [@seu-usuario](https://github.com/carlinn1)
+- LinkedIn: [meu-linkedin](https://www.linkedin.com/in/carlos-henrique-souza-bispo-29931231b/)
+- GitHub: [@meu-github](https://github.com/carlinn1)
 - Email: carlos_-425@hotmail..com
 
 ## 🤝 Contribuindo
